@@ -14,7 +14,7 @@ public class UserController {
     @GetMapping("/getAllUsers")
     public String getAllUsers() {
         repository.findAll();
-        return "hello";
+        return "hello world";
     }
 
 }
